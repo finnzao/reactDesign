@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+
+html {
+  background-color: black;
+}
+
+.App {
+  background-color: black;
+  color: whitesmoke;
+  margin: 0;
+}
+
+section {
+  min-width: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
