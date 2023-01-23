@@ -1,0 +1,13 @@
+.aboutList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .aboutList {
+        grid-template-columns: 1fr;
+        padding: 0px;
+    }
+
+}
