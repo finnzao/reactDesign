@@ -1,0 +1,15 @@
+.box {
+    width: 100vw;
+    padding: 0 20%;
+    margin-top: 100px;
+}
+
+.box h1 {
+    padding: 0;
+}
+
+@media (max-width:425px) {
+    .box {
+        padding: 0 5%;
+    }
+}

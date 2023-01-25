@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./TextMedium.module.css"
+import styles from "./TextSmall.module.css"
 function TextMedium(props) {
     return (
         <div className={styles.box}>

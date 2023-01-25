@@ -5,7 +5,7 @@ import styles from "./About.module.css"
 function About() {
 
     return (
-        <section className='about'>
+        <section className={styles.about}>
             <Titllelarge text="Por que você precisa de nosso serviço?"></Titllelarge>
 
 
