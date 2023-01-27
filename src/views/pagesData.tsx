@@ -2,6 +2,7 @@ import { routerType } from "../types/router.types";
 import About from "./About/index";
 import Home from "./Home/index";
 import Portfolio from "./Portfolio/index";
+import EditProfile from "./EditProfile/index"
 
 const pagesData: routerType[] = [
     {
@@ -18,6 +19,11 @@ const pagesData: routerType[] = [
         path: "portfolio",
         element: <Portfolio />,
         title: "Portfolio"
+    },
+    {
+        path: "EditProf",
+        element: <EditProfile />,
+        title: "EditPage"
     }
 ];
 

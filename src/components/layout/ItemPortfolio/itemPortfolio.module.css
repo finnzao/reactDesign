@@ -33,7 +33,7 @@
 .imgCard img {
     object-fit: cover;
     size-adjust: auto;
-    width: 70%;
+    width: 60%;
 }
 
 
@@ -49,6 +49,7 @@
         min-width: 100%;
         max-width: 600px;
         justify-content: center;
+        padding: 10px;
     }
 
     .card p {

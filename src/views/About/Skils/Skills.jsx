@@ -3,9 +3,10 @@ import styles from "./Skills.module.css"
 function Skills() {
     return (
         <>
-            <div className="skills"></div>
-            <ItemToggle title="Certificado" text="CURSO WEB MORDENO (COD3R)" />
-            <ItemToggle title="Experiêcia" text="Freelancer" />
+            <div className={styles.skills}>
+                <ItemToggle title="Certificado" text="CURSO WEB MORDENO (COD3R)" />
+                <ItemToggle title="Experiêcia" text="Freelancer" />
+            </div>
         </>
 
     )

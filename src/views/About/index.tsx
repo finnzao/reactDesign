@@ -1,10 +1,11 @@
 
 import TitleHead from "./TitleHead/TitleHead";
 import Skills from "./Skils/Skills";
+import styles from "./"
 const About = () => {
     return (
 
-        <div className="About">
+        <div >
             <TitleHead />
             <Skills />
         </div>
